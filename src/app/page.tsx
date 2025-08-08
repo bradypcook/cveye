@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const basePath = process.env.NODE_ENV === 'production' ? '/cyeve' : '';
+const basePath = process.env.NODE_ENV === 'production' ? '/cveye' : '';
 
 export default function Home() {
   return (
