@@ -3,8 +3,6 @@ import Footer from "@/app/components/Footer";
 import SquareGrid from "@/app/components/SquareGrid";
 import NISTinfo from "@/app/components/nist_info";
 
-const basePath = process.env.NODE_ENV === 'production' ? '/cveye' : '';
-
 export default function Home() {
   return (
     <main>
@@ -12,7 +10,6 @@ export default function Home() {
     <SquareGrid />
     <NISTinfo />
     <Footer />
-    {/** <Footer /> */}
     </main>
   );
 }
