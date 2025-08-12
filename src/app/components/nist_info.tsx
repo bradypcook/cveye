@@ -9,7 +9,7 @@ export default function NISTinfo() {
       <div className="max-w-4xl mx-auto px-6 text-center">
         {/* Header Text */}
         <h2 className="text-2xl md:text-3xl font-bold text-white mb-2"> {/* Reduced margin */}
-          Built with NIST's National Vulnerability Database CVE API
+          Built with the NIST National Vulnerability Database CVE API
         </h2>
         
         {/* Image Container */}

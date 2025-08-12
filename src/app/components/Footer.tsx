@@ -1,9 +1,3 @@
-'use client'
-
-import Image from "next/image";
-
-const basePath = process.env.NODE_ENV === 'production' ? '/cveye' : '';
-
 export default function Footer() {
   return (
     <footer className="bg-[#EEB200] text-black py-3 mt-0">
