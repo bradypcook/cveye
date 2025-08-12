@@ -80,7 +80,7 @@ export default function SquareRow() {
       {/* Mobile: stacked / Desktop: row */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 justify-items-center">
         <Square title="What is a CVE?">
-          A CVE (otherwise known as a "Common Vulnerabilites & Exposure") is a publicly disclosed cybersecurity flaw. 
+          A CVE (otherwise known as a Common Vulnerabilites & Exposure) is a publicly disclosed cybersecurity flaw. 
           The CVE database system was established in 1999 by the MITRE corporation (and funded by the US government) so that the tracking of software bugs could be streamlined.
         </Square>
         
